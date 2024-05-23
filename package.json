@@ -1,0 +1,26 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "boot.dev project",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reslin/webcrawler.git"
+  },
+  "author": "reslin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reslin/webcrawler/issues"
+  },
+  "homepage": "https://github.com/reslin/webcrawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
