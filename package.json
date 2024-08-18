@@ -22,5 +22,9 @@
   "homepage": "https://github.com/reslin/webcrawler#readme",
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "dependencies": {
+    "jsdom": "^24.1.1"
+  },
+  "main": "main.js"
 }
